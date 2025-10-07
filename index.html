@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Nest</title>
+    <link rel="stylesheet" href="tripnest.css">
+    <link rel="shortcut icon" href="ChatGPT Image Sep 24, 2025, 08_46_34 PM.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <div>
+            <img src="ChatGPT Image Sep 24, 2025, 08_46_34 PM.png" alt="">
+            <h3>Trip Nest</h3>
+        </div>
+        <nav>
+            <span id="navLine"></span>
+            <ul>
+                <li id="UlHome" onclick="changePageBtnHome()"><span>Home</span></li>
+                <li id="UlAbout" onclick="changePageBtnAbout()"><span>About</span></li>
+                <li id="UlContact" onclick="changePageBtnContact()"><span>Contact</span></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <span class="planeImgContainer" id="slidingImage">
+            <img class="planeImg" src="vecteezy_flying-airplane.png" alt="">
+        </span>
+
+<!--    home   -->
+
+        <section class="home" id="home">
+            <section class="homeFirstSection">
+                <div> 
+                </div>
+                <article class="homeFirstSectionArticle">
+                    <span class="homeFirstSectionArticleSpan1">
+                        <h1>Welcome to <br>
+                            <img src="ChatGPT Image Sep 24, 2025, 08_46_34 PM.png" alt=""> TripNest</h1>
+                        <p>Your gateway to unforgettable journeys. Explore, dream, and discover with us.</p>
+                    </span>
+                    <span class="homeFirstSectionArticleSpan2">
+                        <p><strong>Join us today and start your adventure!</strong></p>
+                        <button onclick="viewMore()">view more</button>
+                    </span>     
+                </article>
+            </section>
+            <section class="homeSecondSection">
+                <article>
+                    <div class="homeSecondSectionArtDiv1">
+                        <img src="homeSec2Img/Gemini_Generated_Image_s6a3ips6a3ips6a3.png" alt="">
+                    </div>
+                    <div class="homeSecondSectionArtDiv2">
+                        <h4>Paris – The City of Lights at Night</h4>
+                        <p>Stroll through glowing boulevards and witness the Eiffel Tower sparkle under the stars.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="homeSecondSectionArtDiv1">
+                        <img src="homeSec2Img/Gemini_Generated_Image_3fltd73fltd73flt.png" alt="">
+                    </div>
+                    <div class="homeSecondSectionArtDiv2">
+                        <h4>Maldives – A Tropical Paradise Escape</h4>
+                        <p>Dive into crystal-clear waters, walk barefoot on soft white sands, and enjoy true serenity.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="homeSecondSectionArtDiv1">
+                        <img src="homeSec2Img/Gemini_Generated_Image_nm81vonm81vonm81.png" alt="">
+                    </div>
+                    <div class="homeSecondSectionArtDiv2">
+                        <h4>New York – The City That Never Sleeps</h4>
+                        <p>From Times Square to Central Park, experience the unstoppable energy of NYC in the daytime.</p>
+                    </div>
+                </article>
+            </section>
+            <section class="homeThirdSection">
+                <div class="homeThirdSectionDiv1">
+                    <h2>Why Choose Us</h2>
+                    <p>Making your travel seamless & memorable</p>
+                </div>
+                <div class="homeThirdSectionDiv2">
+                    <article>
+                        <h4>Easy Booking ✈️</h4>
+                        <p>Plan and book your trips in just a few clicks — simple, fast, and hassle-free.</p>
+                    </article>
+                    <article>
+                        <h4>Curated Destinations 🌍</h4>
+                        <p>Explore handpicked destinations tailored for unforgettable experiences.</p>
+                    </article>
+                    <article>
+                        <h4>Best Value Deals 💸</h4>
+                        <p>Enjoy affordable prices and transparent packages with no hidden charges.</p>
+                    </article>
+                </div>
+            </section>
+            <section class="homeFourthSection">
+                <div class="homeFourthSectionDiv1">
+                    <h2>What Our Travelers Say</h2>
+                </div>
+                <div class="homeFourthSectionDiv2">
+                    <article>
+                        <div  class="articleDiv1">
+                            <span><img src="homeSec4Img/kelly-sikkema-JN0SUcTOig0-unsplash.jpg" alt=""></span>
+                            <h4>Emily Johnson — New York, USA</h4>
+                        </div>
+                        <div class="articleDiv2">
+                            <p>I had always been nervous about planning trips on my own, but Trip Nest completely changed that for me. From the moment I visited their site, everything felt effortless. The booking system was smooth, and within minutes I had a full itinerary tailored to my interests. Thanks to them, my solo trip to Italy was stress-free and unforgettable.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="articleDiv1">
+                            <span><img src="homeSec4Img/himanshu-dewangan-k9tUQNeOfx0-unsplash.jpg" alt=""></span>
+                            <h4>Rajesh Patel — Ahmedabad, India</h4>
+                        </div>
+                        <div class="articleDiv2">
+                            <p>Planning a family vacation can be overwhelming, but Trip Nest made it hassle-free. Their team recommended family-friendly destinations, comfortable hotels, and activities for everyone. The best part was transparent pricing — no last-minute surprises. My family loved every single moment of our Dubai holiday.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="articleDiv1">
+                            <span><img src="homeSec4Img/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt=""></span>
+                            <h4>Sophia Martinez — Barcelona, Spain</h4>
+                        </div>
+                        <div class="articleDiv2">
+                            <p>I stumbled upon Trip Nest while searching for budget-friendly deals, and I was pleasantly surprised. They listened to my preferences and created an itinerary that balanced sightseeing, relaxation, and local culture. The 24/7 support came in handy when I needed quick rescheduling. It felt like a truly personalized travel experience.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="articleDiv1">
+                            <span><img src="homeSec4Img/jurica-koletic-7YVZYZeITc8-unsplash.jpg" alt=""></span>
+                            <h4>Liam Anderson — Sydney, Australia</h4>
+                        </div>
+                        <div class="articleDiv2">
+                            <p>What impressed me the most about Trip Nest was the personal touch. My trip to Japan was seamless — from smooth airport transfers to well-located hotels and curated cultural tours. Every detail was thoughtfully arranged, which saved me a lot of stress and time. One of the best travel experiences I’ve had.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="homeFifthSection">
+              <article>
+                <h2>Ready to Start Your Journey?</h2>
+                <p>Your dream destination is just one click away. With Trip Nest, planning your trip becomes effortless — from personalized itineraries and best-price options to 24/7 support. Whether you’re traveling solo, with family, or friends, we make sure every trip is smooth, memorable, and completely stress-free. Start exploring the world today and create experiences you’ll never forget.</p>
+                <button>Explore Destinations</button>
+              </article>  
+            </section>
+        </section>
+
+<!--    about   -->
+
+        <section class="about" id="about">
+            <section class="aboutFirstSection">
+                <div>  
+                </div>
+                <article class="aboutFirstSectionArticle">
+                        <h1>About Trip Nest</h1>
+                        <h2>Making every journey unforgettable.</h2>
+                </article>
+            </section>
+            <section class="aboutSecondSection">
+                <h2>Our Journey</h2>
+                <article>
+                    <div>
+                        <img src="aboutsec2Img/Gemini_Generated_Image_ioghlaioghlaiogh.png" alt="">
+                    </div>
+                    <div>
+                        <span>
+                            <p>Trip Nest began with a simple dream — to make travel planning effortless, inspiring, and full of discovery. What started as a small idea among passionate explorers soon transformed into a platform that connects adventurers with unforgettable destinations. We believe that every trip is more than just reaching a place; it’s about the experiences, memories, and stories you create along the way.</p>
+                        </span>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <span>
+                            <p>With a growing community of travelers, Trip Nest continues to evolve into a space where inspiration meets convenience. From hiking scenic trails to exploring hidden mountain paths, we help users plan journeys with confidence, find trusted travel partners, and create moments worth cherishing. For us, travel isn’t just about destinations — it’s about the joy, connection, and excitement every step of the way.</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="aboutsec2Img/Gemini_Generated_Image_o4hvuo4hvuo4hvuo.png" alt="">
+                    </div>
+                </article>
+            </section>
+            <section class="aboutThirdSection">
+                <h2>Mission, Vision & Values</h2>
+                <div>
+                    <article>
+                        <h4>Mission</h4>
+                        <p>To simplify travel planning by offering a seamless, transparent, and personalized booking experience for every traveler around the globe. We aim to make travel more accessible, reliable, and enjoyable for everyone.</p>
+                    </article>
+                    <article>
+                        <h4>Vision</h4>
+                        <p>To become the most loved and trusted travel platform that connects people to destinations, cultures, and experiences through technology and creativity. We envision a world where travel inspires connection and discovery without limits.</p>
+                    </article>
+                    <article>
+                        <h4>Values</h4>
+                        <p>At Trip Nest, we value trust, innovation, and community. Every journey we create reflects our passion for honest service, sustainable tourism, and cultural respect. We believe travel should leave footprints of joy — not harm — wherever it goes.</p>
+                    </article>
+                </div>                
+            </section>
+            <section class="aboutFourthSection">
+                <h2>Meet Our Team</h2>
+                <div>
+                    <article>
+                        <span class="span1">
+                            <span><img src="aboutsec4Img/76cb58eb25a5f53fb25a3ac2e37116da.jpg" alt=""></span>
+                            <h4>Rudra Patel — Founder & CEO</h4>
+                        </span>
+                        <span class="span2">
+                            <p>A passionate traveler and visionary leader, Rudra founded Trip Nest to bridge the gap between technology and real-world travel experiences. He ensures every journey reflects innovation and trust.</p>
+                        </span>
+                    </article>
+                    <article>
+                        <span class="span1">
+                            <span><img src="aboutsec4Img/e2dff835f4950a9ba3eac77119410b35.jpg" alt=""></span>
+                            <h4>Het Chauhan — Co-Founder</h4>
+                        </span>
+                        <span class="span2">
+                            <p>Het brings strategic insight and innovative ideas to Trip Nest. Together with Rudra, Het helps shape the platform’s vision and ensures a seamless travel experience for all users.</p>
+                        </span>
+                    </article>
+                    <article>
+                        <span class="span1">
+                            <span><img src="aboutsec4Img/f1a494610a706356aeed3bdd021f146c.jpg" alt=""></span>
+                            <h4>Harsh Rampariya — Lead Developer</h4>
+                        </span>
+                        <span class="span2">
+                            <p>Harsh builds the backbone of Trip Nest, ensuring smooth performance and reliable booking experiences for all users. His expertise in technology keeps the platform seamless and efficient.</p>
+                        </span>
+                    </article>
+                    <article>
+                        <span class="span1">
+                            <span><img src="aboutsec4Img/pexels-aminnaderloei-32031994.jpg" alt=""></span>
+                            <h4>Aisha Khan — Creative Director</h4>
+                        </span>
+                        <span class="span2">
+                            <p>Aisha brings destinations to life with visuals and stories that spark wanderlust in every traveler. She combines creativity with strategy to make every campaign engaging.</p>
+                        </span>
+                    </article>
+                    <article>
+                        <span class="span1">
+                            <span><img src="aboutsec4Img/pexels-estoymhrb-18235086.jpg" alt=""></span>
+                            <h4>Vivek Sharma — Marketing Head</h4>
+                        </span>
+                        <span class="span2">
+                            <p>Vivek connects Trip Nest with travelers worldwide through innovative campaigns. He inspires exploration and adventure while strengthening the brand’s reach and trust.</p>
+                        </span>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+<!--    contact   -->
+
+        <section class="contact" id="contact">
+            <section class="contactFirstSection">
+                <div>  
+                </div>
+                <article class="contactFirstSectionArticle">
+                    <h1>
+                        Get in Touch
+                    </h1>
+                    <p>We’re always here to help you plan your next adventure. Whether you have a question about destinations, bookings, or partnerships — our team is ready to guide you every step of the way. Reach out, and let’s make your travel dreams come true.</p>    
+                </article>
+            </section>
+            <section class="contactSecondSection">
+                <article class="article1">
+                    <pre>
+            📍 Our Office
+            Trip Nest Pvt. Ltd.
+            402, Silverleaf Complex, C.G. Road, Ahmedabad,
+             Gujarat – 380009
+                    </pre>
+                    <pre>
+            📞 Call Us
+            +91 98765 43210
+                    </pre>
+                    <pre>
+            ✉️ Email Us
+            support@tripnest.com
+                    </pre>
+                    <pre>
+            🕓 Working Hours
+            Monday – Saturday: 9:00 AM to 7:00 PM
+            Sunday: Closed
+                    </pre>
+                    <pre>
+            🌐 Follow Us
+            <div class="lastPri">
+            <span><img src="contectsec2Img/instaTrip.png" alt=""></span><span><img src="contectsec2Img/facebookTrip.png" alt=""></span><span><img src="contectsec2Img/linkdinTrip.png" alt=""></span><span><img src="contectsec2Img/xTrip.png" alt=""></span>
+            </div>
+                    </pre>
+                </article>
+                <article class="article2">
+                    <h4>Come in Touch</h4>
+                    <form action="TripNest.html">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter your Email" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <article class="footerArticle1">
+            <span>Trip Nest Make your Adventure easy.</span>
+            <span>+91 9876543210</span>
+            <span>&copy; TripNest.com </span>
+        </article>
+        <article class="footerArticle2">
+            <ul>
+                <li onclick="changePageBtnHome()">Home</li>
+                <li onclick="changePageBtnAbout()">About</li>
+                <li onclick="changePageBtnContact()">Contact</li>
+            </ul>
+        </article>
+    </footer>
+    <script src="tripNest.JS"></script>
+</body>
+</html>
